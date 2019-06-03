@@ -17,7 +17,7 @@ if [ $# -lt 1 ]
 then
     echo -e "${red}ERROR: ${no_style}ipagen acknowledges only the first argument, which is the path of the .xcarchive file"
     echo "${ind}the proper call should look like this:"
-    echo "${ind}${bold}$ ./ipagen <path_to_file>${normal}"
+    echo "${ind}${bold}$ ./ipagen.sh <path_to_file>${normal}"
     echo "${ind}simply drag the file to the terminal to substitute for ${bold}<path_to_file>${normal}"
     exit 1
 fi
